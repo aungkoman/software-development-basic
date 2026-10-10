@@ -143,7 +143,11 @@ Cascade Drop-down တွေ ရှိရင် ဉပမာ State / Region ရ�
 State Management / Caching Mechanism တစ်ခု သုံးပြီး page ပြန်ရောက်လာမှ reload မလုပ်ပဲ app life cycle တ၏်ခုလုံးမှာ listing အတွက် ထိမ်းထားတာမျိုး လုပ်သင့်တယ်။ edit, update , insert ၊ filter , sorting , searching လုပ်တဲ့အခါမှဟာreload ပြန်လုပ်တာမျိုး
 Loading ကို Shimmer Effect , Skeleton တွေ သုံးပြီး ပြမယ်။
 
-## Create Form
+
+Listing Table မှာ တစ်ခုထည့်ဖို့ကျန်တာက Multiple Select နဲ့ Bulk Action ,
+
+
+## Create / Edit Form
 
 Drop-down data တွေကို loading လုပ်နေရင် လုက်နေတဲ့အကြောင်း သေချာပြသင့်တယ်။
 
@@ -155,6 +159,14 @@ Submit ခလုပ် အပေါ်မှာလည်း စာရင်း�
 
 Form ရှည်လွန်းရင် Stepper ပုံစံနဲ့ section အလိုက် / Accordion ပုံစံနဲ့ ခွဲကြသင့်တယ်။
 
-Listing Table မှာ တစ်ခုထည့်ဖို့ကျန်တာက Multiple Select နဲ့ Bulk Action ,
+## Submit Button
+
+loading indicator / disabled ကို micro interaction ပုံစံ ကလစ်နှိပ်တာနဲ့ ချက်ခြင်း ပြသင့်။
+
+## Micro Interaction
+
+desktop မှာ ဆိုရင် table row ပေါ် hover ရောက်လာတာနဲ့ မသိမသာလေး hightlight ပြသင့်။
+
+
 
 
