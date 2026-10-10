@@ -117,3 +117,7 @@ Book
 }
 ```
 
+
+
+CREATED_AT နဲ့ UPDATED_AT ကတော ့အမြဲ ထည့်ထားရမယ်။
+
