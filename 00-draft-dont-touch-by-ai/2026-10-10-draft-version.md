@@ -121,3 +121,40 @@ Book
 
 CREATED_AT နဲ့ UPDATED_AT ကတော ့အမြဲ ထည့်ထားရမယ်။
 
+
+## Listing UI
+
+Listing တွေမှာ filter, sorting and searching, pagination ဒါတွေ ပါရမယ်။
+လက်ရှိ Filtered Item တွေကိုလည်း ပြထားရမယ်။
+Summary Card တွေ ဉပမာ Total ဘယ်လောက်၊ လက်ရှိ ဘယ်နှစ် page မြောက် / total page
+Item တိုင်းက Detail, Edit, Delete စတဲ့ Action Button တွေ ပါသင့်တယ်။
+
+Table Column တွေကိုလည်း show hide လုပ်နိုင်သင့်တယ်။ လုပ်သမျှကိုလည်း local cache အနေနဲ့ သိမ်းထားသင့်တယ်။
+
+Filter က Drop-down field / foreign key မှန်သမျှ ထားပေးထားသင့်တယ်။ အကုန်လုံးကတော့ And နဲ့ condition တွဲထားမယ်။
+
+
+ဒါဆို အခြေခံ Listing Module ရပြီ။
+API ဘက်ကတော့ ဒါတွေ အကုန် ထောက်ပံ့ပေးထားရမယ်။
+
+မြန်ချင်တဲ့ case မှာ ဆိုရင် modal ဒါမှ မဟုတ် side bar ကနေ new form, edit form ထွက်လာသင့်တယ်။
+
+Cascade Drop-down တွေ ရှိရင် ဉပမာ State / Region ရွေးလိုက်ရင် နောက်က township drop-down က data item တွေကို ရွေးထားတဲ့ state/region ထဲမှာ ပါတဲ့ township တွေပဲ ပါအောင် filter လုပ်ပေးထားတာမျိုး
+State Management / Caching Mechanism တစ်ခု သုံးပြီး page ပြန်ရောက်လာမှ reload မလုပ်ပဲ app life cycle တ၏်ခုလုံးမှာ listing အတွက် ထိမ်းထားတာမျိုး လုပ်သင့်တယ်။ edit, update , insert ၊ filter , sorting , searching လုပ်တဲ့အခါမှဟာreload ပြန်လုပ်တာမျိုး
+Loading ကို Shimmer Effect , Skeleton တွေ သုံးပြီး ပြမယ်။
+
+## Create Form
+
+Drop-down data တွေကို loading လုပ်နေရင် လုက်နေတဲ့အကြောင်း သေချာပြသင့်တယ်။
+
+Field Validation ကို server side, client side နှစ်ခုလုံးမှာ လုပ်ပါ။
+
+Error State ကို field တစ်ခုချင်းစီအလိုက် အတိအကျ ပြသင့်။
+
+Submit ခလုပ် အပေါ်မှာလည်း စာရင်းနဲ့ပြ။
+
+Form ရှည်လွန်းရင် Stepper ပုံစံနဲ့ section အလိုက် / Accordion ပုံစံနဲ့ ခွဲကြသင့်တယ်။
+
+Listing Table မှာ တစ်ခုထည့်ဖို့ကျန်တာက Multiple Select နဲ့ Bulk Action ,
+
+
